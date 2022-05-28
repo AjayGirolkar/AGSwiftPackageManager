@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "AGSwiftPackage",
+        "repositoryURL": "https://github.com/AjayGirolkar/AGSwiftPackage.git",
+        "state": {
+          "branch": "main",
+          "revision": "2576ccd063c51e1a1572be620647550598dd38ed",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}
