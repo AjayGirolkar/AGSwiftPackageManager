@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AB1E029B284247FA0084A648 /* DemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1E029A284247FA0084A648 /* DemoView.swift */; };
 		AB902817284231780020247F /* AGSwiftPackage in Frameworks */ = {isa = PBXBuildFile; productRef = AB902816284231780020247F /* AGSwiftPackage */; };
 		ABB06BF1283CB25100E2F521 /* AGSwiftPackageManagerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB06BF0283CB25100E2F521 /* AGSwiftPackageManagerApp.swift */; };
 		ABB06BF3283CB25100E2F521 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB06BF2283CB25100E2F521 /* ContentView.swift */; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AB1E029A284247FA0084A648 /* DemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoView.swift; sourceTree = "<group>"; };
 		ABB06BED283CB25100E2F521 /* AGSwiftPackageManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AGSwiftPackageManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABB06BF0283CB25100E2F521 /* AGSwiftPackageManagerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AGSwiftPackageManagerApp.swift; sourceTree = "<group>"; };
 		ABB06BF2283CB25100E2F521 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -79,9 +81,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AB1E0298284247910084A648 /* AGSwiftPackage */ = {
+			isa = PBXGroup;
+			children = (
+				AB1E0299284247E00084A648 /* Views */,
+			);
+			path = AGSwiftPackage;
+			sourceTree = "<group>";
+		};
+		AB1E0299284247E00084A648 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AB1E029A284247FA0084A648 /* DemoView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		ABB06BE4283CB25100E2F521 = {
 			isa = PBXGroup;
 			children = (
+				AB1E0298284247910084A648 /* AGSwiftPackage */,
 				ABB06BEF283CB25100E2F521 /* AGSwiftPackageManager */,
 				ABB06C05283CB25200E2F521 /* AGSwiftPackageManagerTests */,
 				ABB06C0F283CB25200E2F521 /* AGSwiftPackageManagerUITests */,
@@ -285,6 +304,7 @@
 				ABB06BFA283CB25200E2F521 /* Persistence.swift in Sources */,
 				ABB06BF3283CB25100E2F521 /* ContentView.swift in Sources */,
 				ABB06BFD283CB25200E2F521 /* AGSwiftPackageManager.xcdatamodeld in Sources */,
+				AB1E029B284247FA0084A648 /* DemoView.swift in Sources */,
 				ABB06BF1283CB25100E2F521 /* AGSwiftPackageManagerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
